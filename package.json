@@ -15,6 +15,7 @@
     "buefy": "^0.9.6",
     "core-js": "^3.6.4",
     "ethers": "^4.0.47",
+    "jj-parallax-card": "^1.0.4",
     "lodash": "^4.17.15",
     "primer-support": "^5.0.0",
     "vaah-vue-clicktocopy": "^1.1.5",

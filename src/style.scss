@@ -19,13 +19,18 @@ $border: 1px solid $bg-color;
   outline: none;
 }
 
+@font-face {
+  font-family: Helios;
+  src: url("./assets/fonts/Helios_Regular.otf") format("opentype");
+}
+
 @import '~@primer/css/index.scss';
 
 html, body, #app {
   color: white;
   background:black;
   letter-spacing:5px;
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: Helios;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-shadow:0px 0px 0.5px;
@@ -64,10 +69,11 @@ body{top:0px;left:0px;width:100%;overflow:auto;position:absolute;}
   width:512px;padding:1rem;
   margin-top:-0.7rem;display:flex;flex-flow:wrap;justify-content:center;}
 .triangle-module{
+  overflow:visible;
   clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
   display:flex;flex-flow:wrap;justify-content:center;
   width:256px;
-  height:256px;z-index:2;
+  height:232px;z-index:2;
   position:relative;
   filter:invert(1);margin:auto -64px ;
   background-image:url("./assets/triangle.svg");
@@ -76,10 +82,11 @@ background-position: center;
 background-repeat:no-repeat;margin-bottom: -31px;
 &:hover{z-index:3;animation:flash 0.2s linear 1;filter:invert(0);}
 &:nth-child(odd){z-index:1;transform:rotate(180deg);  
-  img{transform:rotate(180deg);}}&:nth-child(4){transform:rotate(180deg);  
+  img{transform:rotate(180deg);}}
+  &:nth-child(4){margin-top: 24px;transform:rotate(180deg);  
     img{transform:rotate(180deg);}}
 img{height:64px!important;margin:auto;margin-bottom:64px;}}
-.toast{background-color:transparent!important;}
+.toast{background-color:transparent!important;position:fixed;left:0.5rem;top:0.5rem;}
 .background2{
   overflow:hidden;
   height: calc(100vh + 52px);
@@ -113,7 +120,7 @@ img{height:64px!important;margin:auto;margin-bottom:64px;}}
 }
 
 h1, h2, h3, .button {
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: Helios;
       font-weight:800;
 }
 
@@ -598,7 +605,7 @@ input.input:read-only {
   .triangle-module{
     display:flex;flex-flow:wrap;justify-content:center;
     width:256px;
-    height:256px;z-index:2;
+    height:232px;z-index:2;
     position:relative;
     filter:invert(1);margin:auto -64px ;
     background-image:url("./assets/triangle.svg");
