@@ -23,6 +23,7 @@ $border: 1px solid $bg-color;
 
 html, body, #app {
   color: white;
+  background:black;
   letter-spacing:5px;
   font-family: 'Space Grotesk', sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -30,6 +31,7 @@ html, body, #app {
   text-shadow:0px 0px 0.5px;
 
 }
+body{top:0px;left:0px;width:100%;overflow:auto;position:absolute;}
 .logo-center-wrapper{
   margin:auto;
   margin-bottom:0.5rem;
@@ -52,6 +54,8 @@ html, body, #app {
   font-size:5rem;
   line-height:5rem;}
 .data-title{ padding:1rem 0rem;}
+.data-wrapper{width:512px;margin:auto;min-width:256px;}
+
 .copy-icon{
   position:absolute;
   top:0px;
@@ -101,7 +105,6 @@ img{height:64px!important;margin:auto;margin-bottom:64px;}}
     
   }
 #app {
-
   z-index:1;
   position:relative;
   background-size:cover;
@@ -402,24 +405,19 @@ font-size:2rem;}
 }
 
 input.input:read-only {
-  color: $text-disabled;
-  border-color: $text-disabled;
   cursor: not-allowed;
 }
 
 ::placeholder {
-  color: white;
   opacity: 1;
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: $secondary;
   border: 0;
   border-radius: 0;
   background-clip: padding-box;
 
   &:hover {
-    background-color: white;
   }
 }
 @keyframes wave{
@@ -432,10 +430,8 @@ input.input:read-only {
 }
 
 .block {
-  @extend .py-6;
   @extend .px-4;
   @extend .mb-4;
-  @extend .mt-8;
   display: flex;
   flex-flow: column;
   justify-content: center;
@@ -565,4 +561,52 @@ input.input:read-only {
 
 .highlight:hover {
   background-color: $secondary;
+}
+
+@media screen and (max-width:600px) {
+  .data-wrapper{width:auto;margin:auto;min-width:256px;}
+  .logo-center-wrapper{
+    margin:auto;
+    margin-bottom:0.5rem;
+    display:flex;
+    flex-flow:column;
+    justify-content:center;}
+  .copy-button{    
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    padding-right: 64px;
+    line-height: 64px;
+    span{opacity:0;transition:opacity 0.2s linear;}
+    &:hover{span{opacity:1;}}
+  }
+  .logo-title{filter:invert(1);
+    background-color:black;
+    width:auto;padding:1rem;
+    margin:2rem 0rem 0.5rem 0rem;
+    font-size:5rem;
+    line-height:5rem;}
+  .data-title{ padding:1rem 0rem;}
+  .copy-icon{
+    position:absolute;
+    top:0px;
+    right:0px;}
+  .data-triangles{
+    width:auto;padding:1rem;
+    margin-top:-0.7rem;display:flex;flex-flow:wrap;justify-content:center;}
+  .triangle-module{
+    display:flex;flex-flow:wrap;justify-content:center;
+    width:256px;
+    height:256px;z-index:2;
+    position:relative;
+    filter:invert(1);margin:auto -64px ;
+    background-image:url("./assets/triangle.svg");
+  background-size:contain;
+  background-position: center;
+  background-repeat:no-repeat;margin-bottom: -31px;
+  &:hover{z-index:3;animation:flash 0.2s linear 1;filter:invert(0);}
+  &:nth-child(odd){z-index:1;transform:rotate(180deg);  
+    img{transform:rotate(180deg);}}&:nth-child(3){transform:rotate(0deg);  
+      img{transform:rotate(0deg);}}
+  img{height:64px!important;margin:auto;margin-bottom:64px;}}  
 }

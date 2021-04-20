@@ -9,11 +9,11 @@
       @copied="copiedData">
       <img class="copy-icon" src="~/@/assets/favicon.png" width="64px" height="64px" style="" alt="$RHO">
       </vh-copy>
-      <img src="~/@/assets/RHO.svg" width="512px;" alt="">
+      <img src="~/@/assets/RHO.svg" width="512px;" class="mt-4" alt="">
       <div class="logo-title"><h1 style="">$RHO</h1></div>
 
     </div>
-    <div class="data-wrapper" style="width:512px;margin:auto;min-width:256px;">
+    <div class="data-wrapper" style="">
       <div class="data-title" style="">ACCESS THE CONTRACT: </div>
       <div class="data-triangles"  style="">
       <a class="triangle-module" href="https://etherscan.io/token/0x3f3cd642e81d030d7b514a2ab5e3a5536beb90ec">
