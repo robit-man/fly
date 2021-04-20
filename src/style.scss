@@ -64,6 +64,7 @@ body{top:0px;left:0px;width:100%;overflow:auto;position:absolute;}
   width:512px;padding:1rem;
   margin-top:-0.7rem;display:flex;flex-flow:wrap;justify-content:center;}
 .triangle-module{
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
   display:flex;flex-flow:wrap;justify-content:center;
   width:256px;
   height:256px;z-index:2;
