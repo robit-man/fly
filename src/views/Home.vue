@@ -16,7 +16,7 @@
     <div class="data-wrapper" style="">
       <div class="data-title" style="">ACCESS THE CONTRACT: </div>
       <div class="data-triangles"  style="">
-      <a class="triangle-module" href="https://etherscan.io/token/0x3f3cd642e81d030d7b514a2ab5e3a5536beb90ec">
+      <a class="triangle-module" href="https://www.dextools.io/app/uniswap/pair-explorer/0xf28e099827cb05c9c35397859b4b626218c5a1cc">
           <img width="64px" height="64px" src="~/@/assets/dextools.png" alt="">
           </a>
        <a class="triangle-module" href="https://app.uniswap.org/#/swap">
