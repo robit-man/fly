@@ -4,12 +4,32 @@
     <div class="logo-center-wrapper" style="">
       <vh-copy class="copy-button"
       :data="'0x3f3cd642e81d030d7b514a2ab5e3a5536beb90ec'"
-      :label="'Contract Address'"
+      :label="'Contract'"
       :confirm_dialog="'buefy'"
       @copied="copiedData">
-      <img class="copy-icon" src="~/@/assets/favicon.png" width="64px" height="64px" style="" alt="$RHO">
+      <img class="copy-icon" src="~/@/assets/favicon.png" width="48px" height="48px" style="" alt="$RHO">
       </vh-copy>
-      <img src="~/@/assets/RHO.svg" width="512px;" class="mt-4" alt="">
+ <vh-copy class="sale-button"
+      :data="'0x51528858b5F7E37aC5976F2E09a07cF2F63Fd664'"
+      :label="'Sale'"
+      :confirm_dialog="'buefy'"
+      @copied="copiedData">
+      <img class="copy-icon" src="~/@/assets/wallet.png" width="48px" height="48px" style="" alt="$BETA">
+      </vh-copy>
+<jj-parallax-card class="mt-6 para-desktop" lightColor="transparent" style="margin:auto;float:left; width: 512px; height: 450px;" @click="click">
+      <div slot="front">
+      <img src="~/@/assets/RHO.svg" width="512px;" class="" alt="">
+      </div>
+</jj-parallax-card>
+
+<jj-parallax-card class="mt-6 para-mobile" lightColor="transparent" style="margin:auto;float:left; width: 300px; height: 260px;" @click="click">
+      <div slot="front">
+      <img src="~/@/assets/RHO.svg" width="512px;" class="" alt="">
+      </div>
+</jj-parallax-card>
+
+
+
       <div class="logo-title"><h1 style="">$RHO</h1></div>
 
     </div>
@@ -36,7 +56,7 @@
 
 <script>
 import { mapState, mapActions } from 'vuex';
-
+import JJParallaxCard from 'jj-parallax-card'
 export default {
   data() {
     return {
@@ -69,7 +89,9 @@ export default {
     maxStake() {
       this.form.quantity = this.$store.state.settings.balance;
     }
-  }
+  },components: {
+    'jj-parallax-card':JJParallaxCard,
+  },
 };
 </script>
 <style scoped>

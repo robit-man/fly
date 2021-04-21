@@ -43,15 +43,30 @@ body{top:0px;left:0px;width:100%;overflow:auto;position:absolute;}
   display:flex;
   flex-flow:column;
   justify-content:center;}
-.copy-button{    
-  position: absolute;
-  right: 0px;
-  top: 0px;
-  padding-right: 64px;
-  line-height: 64px;
-  span{opacity:0;transition:opacity 0.2s linear;}
-  &:hover{span{opacity:1;}}
-}
+  .copy-button{    
+    position: absolute;
+    right: 16px;
+    top: 8px;
+    padding-right: 64px;
+    line-height: 64px;
+    img{transition:filter 0.2s linear;}
+    &:hover{img{filter:invert(1);}}
+    span{opacity:0;transition:opacity 0.2s linear;}
+    &:hover{span{opacity:1;
+    }}
+  }
+  .sale-button{    
+    position: absolute;
+    right: 16px;
+    top: 64px;
+    padding-right: 64px;
+    line-height: 64px;
+    img{transition:filter 0.2s linear;}
+    &:hover{img{filter:invert(1);}}
+    span{opacity:0;transition:opacity 0.2s linear;}
+    &:hover{span{opacity:1;
+    }}
+  }
 .logo-title{
   filter:invert(1);
   background-image:linear-gradient(45deg, transparent 0%, transparent 0.5rem, black 0.5rem, black calc(100% - 1.5rem), transparent calc(100% - 1.5rem));
@@ -102,6 +117,9 @@ img{height:64px!important;margin:auto;margin-bottom:46px;}}
   background-color: white;
   }
 
+  .para-desktop{display:flex;}
+    .para-mobile{display:none;}
+
   @keyframes flash {
     0%{filter:invert(0);}
     10%{filter:invert(1);}
@@ -116,6 +134,8 @@ img{height:64px!important;margin:auto;margin-bottom:46px;}}
     100%{filter:invert(0);}
     
   }
+.front{transition:transform 0.2s ease;overflow:hidden!important;}
+.parallax-card{transition:transform 0.2s linear;}
 #app {
   z-index:1;
   position:relative;
@@ -585,18 +605,10 @@ input.input:read-only {
     display:flex;
     flex-flow:column;
     justify-content:center;}
-  .copy-button{    
-    position: absolute;
-    right: 0px;
-    top: 0px;
-    padding-right: 64px;
-    line-height: 64px;
-    span{opacity:0;transition:opacity 0.2s linear;}
-    &:hover{span{opacity:1;}}
-  }
+ 
   .logo-title{
     width:auto;}
-  .data-title{ padding:1rem 0rem;}
+  .data-title{ padding:1rem 0rem;text-align:center;}
   .copy-icon{
     position:absolute;
     top:0px;
@@ -619,4 +631,7 @@ input.input:read-only {
     img{transform:rotate(180deg);}}&:nth-child(3){transform:rotate(0deg);  
       img{transform:rotate(0deg);}}
   img{height:64px!important;margin:auto;margin-bottom:46px;}}  
+
+.para-desktop{display:none;}
+.para-mobile{display:flex;}
 }
