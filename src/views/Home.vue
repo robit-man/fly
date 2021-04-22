@@ -34,7 +34,7 @@
 
     </div>
     <div class="data-wrapper" style="">
-      <div class="data-title" style="">RHO tokens corrospond to the Y-Axis location value of LED pixels. <br><br> Present on the exposed surfaces and livestreamed from a <a href="https://www.geometricspace.ca/launch/1" target="_blank"><i>sattelite to be placed in LEO in JUNE 2022,</i></a>  These pixel's hue <a href="https://kappa-protocol.netlify.app" target="_blank">(KAPPA)</a>, luminosity <a href="https://gamma-protocol.netlify.app" target="_blank">(GAMMA)</a>, X <a href="https://beta-protocol.netlify.app" target="_blank">(BETA)</a> and Y <a href="https://rho-protocol.netlify.app" target="_blank">(RHO)</a> axis locations are acquired in exchange for the afformentioned tokens. <br><br>ACCESS THE CONTRACT </div>
+      <div class="data-title" style="">RHO tokens correspond to the Y-Axis location value of LED pixels. <br><br>Present on the exposed surfaces and livestreamed from a satellite to be placed in LEO in JUNE 2022, These pixel's hue <a href="https://kappa-protocol.netlify.app" target="_blank">(KAPPA)</a>, luminosity <a href="https://gamma-protocol.netlify.app" target="_blank">(GAMMA)</a>, X-Axis <a href="https://beta-protocol.netlify.app" target="_blank">(BETA)</a> and Y-Axis <a href="https://rho-protocol.netlify.app" target="_blank">(RHO)</a> locations are acquired in exchange for the aforementioned tokens.<br><br>ACCESS THE CONTRACT </div>
       <div class="data-triangles"  style="">
       <a class="triangle-module" target="_blank" href="https://www.dextools.io/app/uniswap/pair-explorer/0xf28e099827cb05c9c35397859b4b626218c5a1cc">
           <img width="64px" height="64px" src="~/@/assets/dextools.png" alt="">
