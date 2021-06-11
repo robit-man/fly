@@ -56,10 +56,10 @@
   <a target="_blank" href="https://app.uniswap.org/#/swap?outputCurrency=0x3f3cd642e81d030d7b514a2ab5e3a5536beb90ec">
 <img src="~/@/assets/uniswap.png" alt="" class="sibling-icon">
 </a>
-  <a target="_blank" href="https://www.dextools.io/app/uniswap/pair-explorer/0xf28e099827cb05c9c35397859b4b626218c5a1cc">
+  <a target="_blank" href="https://etherscan.io/token/0x3f3cd642e81d030d7b514a2ab5e3a5536beb90ec">
 <img src="~/@/assets/etherscan.png" alt="" class="middle-3 sibling-icon">
 </a>
-  <a target="_blank" href="https://etherscan.io/token/0x3f3cd642e81d030d7b514a2ab5e3a5536beb90ec">
+  <a target="_blank" href="https://www.dextools.io/app/uniswap/pair-explorer/0xf28e099827cb05c9c35397859b4b626218c5a1cc">
 <img src="~/@/assets/dextools.png" alt="" class="middle-4 sibling-icon">
 </a>
   <a target="_blank" href="https://app.uniswap.org/#/add/0x3f3cd642e81d030d7b514a2ab5e3a5536beb90ec/ETH">
