@@ -126,9 +126,9 @@ img{height:64px!important;margin:auto;margin-bottom:46px;}}
   bottom: -32px;
   background-color: white;
   }
-
+.about-wrap{width:512px;max-width:calc(100vw - 2rem);margin:auto;}
   .about-text{
-    margin:auto;text-align: center;padding:3rem;
+    margin:auto;text-align: center;
     h1{font-size:32px;transition:letter-spacing 100ms ease;
       &:hover{letter-spacing:2px;}}
       

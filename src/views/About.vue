@@ -1,9 +1,7 @@
 <template>
   <div class="full-wrapper">
     
-  
-<jj-parallax-card class="" lightColor="transparent" style="margin:auto; width: 512px; height: 512px;" @click="click">
-      <div slot="front">
+  <div class="about-wrap">
          <vh-copy class="para-desktop copy-button"
       :data="'0x3f3cd642e81d030d7b514a2ab5e3a5536beb90ec'"
       :confirm_dialog="'buefy'"
@@ -16,9 +14,8 @@
 Present on the exposed surfaces and livestreamed from a satellite to be placed in LEO in JUNE 2022, These pixel's hue (KAPPA), luminosity (GAMMA), X-Axis (BETA) and Y-Axis (RHO) locations are acquired in exchange for the aforementioned tokens.
      </p>    <br>    <router-link :to="{ name: 'home' }" >
      <img src="~/@/assets/rho_icon-06.png" style="height:64px;filter:invert(1);" alt="">
-    </router-link></div>
-</jj-parallax-card>
-
+    </router-link>
+</div>
   </div>
 </template>
 
