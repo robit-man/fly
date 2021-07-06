@@ -59,7 +59,7 @@
   <a target="_blank" href="https://etherscan.io/token/0x3f3cd642e81d030d7b514a2ab5e3a5536beb90ec">
 <img src="~/@/assets/etherscan.png" alt="" class="middle-3 sibling-icon">
 </a>
-  <a target="_blank" href="https://kek.tools/t/rho">
+  <a target="_blank" href="https://kek.tools/t/0x3f3cd642e81d030d7b514a2ab5e3a5536beb90ec">
 <img src="~/@/assets/kek.png" alt="" class="middle-4 sibling-icon">
 </a>
   <a target="_blank" href="https://app.uniswap.org/#/add/0x3f3cd642e81d030d7b514a2ab5e3a5536beb90ec/ETH">
