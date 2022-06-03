@@ -1,14 +1,20 @@
 import Vue from 'vue';
 import VueRouter, { RouteConfig } from 'vue-router';
-import Home from '@/views/Home.vue';
-import About from '@/views/About.vue';
+import Terminal from '@/views/Terminal.vue';
+import Mobile from '@/views/Mobile.vue';
+import Flights from '@/views/Flights.vue';
+import Booking from '@/views/Booking.vue';
+import Token from '@/views/Token.vue';
 
 
 Vue.use(VueRouter);
 
 const routes: Array<RouteConfig> = [
-  { path: '/', name: 'home', component: Home },
-  { path: '/about', name: 'about', component: About }
+  { path: '/', name: 'terminal', component: Terminal },
+  { path: '/mobile', name: 'mobile', component: Mobile },
+  { path: '/flights', name: 'flights', component: Flights },
+  { path: '/booking', name: 'booking', component: Booking },
+  { path: '/token', name: 'token', component: Token }
   
 ];
 
