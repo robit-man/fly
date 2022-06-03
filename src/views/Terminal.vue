@@ -48,5 +48,11 @@ export default {
 .about-fly{position:fixed;left:3rem;height:8rem;width:500px;height:300px;top:calc(30% + 6rem);padding-right:3rem;}
 .line-left-a{bottom:70%!important;}
 .line-left-b{top:calc(30% + 300px)!important;}
+
+@media screen and (max-width:900px) {
+  .bookbutton{width:2500px;height:auto;border-radius:2rem;font-size:2rem;padding:0.5rem;border:1px solid #ed1c24;color:#ed1c24;text-align:center;font-weight:bolder;
+}
+.cta{width:300px;bottom:30%;left:calc(50% - 150px);position:fixed;display:flex;flex-flow:row;justify-content:center;}
+}
 </style>
 
