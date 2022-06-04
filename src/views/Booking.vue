@@ -12,19 +12,33 @@
         <div class="line-right-b"></div>
       </div>
 
+    <div class="plane-booking"><img src="~/@/assets/booking-plane.png" alt=""></div>
+
       <div class="about-booking">
       <h1>The Ultimate Concierge</h1>
       <p class="booking-desc">Fly is unmatched in the customizing of your entire travel experience. 
 Use the power of your voice to select all your flight options including</p>
       </div>
 
+<div class="featurecolumn">
+      <div class="featurerow">
 
+          <div class="navleft"></div>
 
+          <div class="features"></div>
 
+          <div class="navright"></div>
 
-    <div class="plane-booking"><img src="~/@/assets/booking-plane.png" alt=""></div>
+      </div>
 
+      
+<div class="cta" style="">
+      <a href="/#/booking">  <div class="bookbutton">
+        BOOK A FLIGHT
+      </div></a>
+    </div>
 
+</div>
 
   </div>
 </template>
@@ -47,7 +61,11 @@ export default {
 </script>
 <style scoped>
 
-
+ .cta{width:300px;top:30rem;left:calc(50% - 150px);position:relative;display:flex;flex-flow:row;justify-content:center;}
+  .bookbutton{transition:all 0.2s ease;width:180px;height:auto;border-radius:2rem;padding:0.5rem 1rem;border:1px solid #ed1c24;color:#ed1c24;text-align:center;font-weight:bolder;
+  }
+  .bookbutton:hover{color:white;background-color:#ed1c24;cursor:pointer;
+  }
 
 @keyframes zoom{
     0%{transform:scale(1)translatex(-100%)}
