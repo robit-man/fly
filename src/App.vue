@@ -4,7 +4,7 @@
       <VueLoadingIndicator v-if="settings.loading" class="overlay big" />
       <div style="" v-else>
       
-      <div class="icontop" style=""><img src="~/@/assets/logo.png" style="" alt=""></div>
+     <a href="/#/"> <div class="icontop" style=""><img src="~/@/assets/logo.png" style="" alt=""></div></a>
 
       <div class="menutop" style="">
         <div class="iconmenu" style="">
@@ -26,16 +26,6 @@
 
       </div>
 
-      <div class="line-box">
-        <div class="line-top-a"></div>
-        <div class="line-top-b"></div>
-        <div class="line-bottom-a"></div>
-        <div class="line-bottom-b"></div>
-        <div class="line-left-a"></div>
-        <div class="line-left-b"></div>
-        <div class="line-right-a"></div>
-        <div class="line-right-b"></div>
-      </div>
         <router-view :key="$route.path" />
       </div>
     </div>
