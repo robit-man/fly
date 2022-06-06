@@ -15,7 +15,7 @@
     <div class="plane-flights"><img src="~/@/assets/flights-plane.png" alt=""></div>
 
     <div class="flightbooking" style="position:fixed;left:4rem;top:calc(10% + 8rem)">
-    <div class="row"  v-on:click="returning = !returning">
+    <div class="row" style="cursor:pointer;"  v-on:click="returning = !returning">
 
     <div class="oneway"> 
     
@@ -33,12 +33,12 @@
     
     <div class="from">
       <p><b><i>FROM</i></b></p>
-      <input type="text">
+      <input placeholder="New York, NY, USA" type="text">
     </div>
 
     <div class="to">
       <p><b><i>TO</i></b></p>
-      <input type="text">
+      <input placeholder="Los Angeles, CA, USA" type="text">
     </div>
 
     </div>
@@ -47,12 +47,12 @@
 
     <div class="departure-date">
       <p><b><i>DEPARTURE DATE</i></b></p>
-      <input type="text">
+      <input placeholder="6/29/2022" type="text">
     </div>
 
     <div class="departure-time">
       <p><b><i>TIME</i></b></p>
-      <input type="text">
+      <input placeholder="12:00 AM" type="text">
     </div>
 
 
@@ -98,14 +98,15 @@ export default {
 };
 </script>
 <style scoped>
-  input{padding:0.5rem 1rem;margin-right:2rem;margin-left:-1rem;border-radius:3rem;border:1px solid #ed1c24;background:transparent;color:white!important;}
-
+  input{max-width:200px;padding:0.5rem 1rem;margin-right:3rem;margin-left:-1rem;border-radius:3rem;border:1px solid #ed1c24;background:transparent;color:white!important;}
+::placeholder{color:white;opacity:0.5;}
   .oneway > h1{
+    transition:all 0.2s ease;
     
-  border-bottom:2px solid;padding-right:1rem;}
+  border-bottom:2px solid;padding-right:2rem;}
 
-  .twoway > h1{
-  border-bottom:2px solid;padding-left:1rem;}
+  .twoway > h1{transition:all 0.2s ease;
+  border-bottom:2px solid;padding-left:2rem;}
 
   .row{display:flex;flex-flow:row;margin-bottom:2rem;margin-top:2rem;}
 
