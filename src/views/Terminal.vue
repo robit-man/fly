@@ -21,7 +21,7 @@ world. Whether you’re traveling domestically or internationally, Fly sets the 
     </div>
 
     <div class="cta" style="">
-      <a href="/#/booking">  <div class="bookbutton">
+      <a href="/#/flights">  <div class="bookbutton">
         BOOK A FLIGHT
       </div></a>
     </div>
