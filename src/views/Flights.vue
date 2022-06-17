@@ -1,6 +1,13 @@
 <template>
   <div class="full-wrapper">
-    
+         <a href="/#/"> <div class="icontop" style=""><img src="~/@/assets/logo.png" style="" alt=""></div></a>
+
+        <div class="iconmenu" style="">
+          <div class="menu-top-line" style=""></div>
+          <div class="menu-bottom-line" style=""></div>
+        </div>
+
+
       <div class="line-box">
         <div class="line-top-a"></div>
         <div class="line-top-b"></div>

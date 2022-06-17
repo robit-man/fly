@@ -1,6 +1,13 @@
 <template>
   <div class="full-wrapper">
-    
+         <a href="/#/"> <div class="icontop" style=""><img src="~/@/assets/logo.png" style="" alt=""></div></a>
+
+        <div class="iconmenu" style="">
+          <div class="menu-top-line" style=""></div>
+          <div class="menu-bottom-line" style=""></div>
+        </div>
+
+
       <div class="line-box">
         <div class="line-top-a"></div>
         <div class="line-top-b"></div>
@@ -84,7 +91,7 @@ export default {
   
   @media screen and (max-width:900px) {.line-box{  top:8rem;
 }
-    .bookbutton{width:350px;height:auto;border-radius:2rem;font-size:2rem;padding:0.5rem;border:1px solid #ed1c24;color:#ed1c24;text-align:center;font-weight:bolder;
+    .bookbutton{width:350px;height:auto;border-radius:2rem;font-size:1.5rem;padding:0.5rem;border:1px solid #ed1c24;color:#ed1c24;text-align:center;font-weight:bolder;
   }
   .plane-about{width:calc(100vw - 8rem);left:4rem;position:absolute;top:10%;animation:zoom 1s ease-out;}
   

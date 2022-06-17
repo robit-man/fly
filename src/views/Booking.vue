@@ -1,6 +1,13 @@
 <template>
   <div class="full-wrapper">
-    
+         <a href="/#/"> <div class="icontop" style=""><img src="~/@/assets/logo.png" style="" alt=""></div></a>
+
+        <div class="iconmenu" style="">
+          <div class="menu-top-line" style=""></div>
+          <div class="menu-bottom-line" style=""></div>
+        </div>
+
+
       <div class="line-box">
         <div class="line-top-a"></div>
         <div class="line-top-b"></div>
@@ -34,7 +41,7 @@ Use the power of your voice to select all your flight options including</p>
       
 <div class="cta" style="">
       <a href="/#/booking">  <div class="bookbutton">
-        BOOK A FLIGHT
+        <b style="color:white;font-weight:700;">LEARN MORE</b>
       </div></a>
     </div>
 
