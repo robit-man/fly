@@ -2,7 +2,7 @@
   <div class="full-wrapper" style="background:black;">
         <div class="token-big"><img src="~/@/assets/token.png" alt=""></div>
 
-        <div class="iconmenu" style="">
+        <div class="iconmenu" style="" v-on:click="menu = !menu">
           <div class="menu-top-line" style=""></div>
           <div class="menu-bottom-line" style=""></div>
         </div>
@@ -55,7 +55,7 @@ export default {
   }
   .learnmore:hover{color:white;background-color:#ed1c24;cursor:pointer;
   }
-  .about-token{position:fixed;left:12rem;height:auto;width:500px;height:300px;top: 6.5rem;padding-right:3rem;}
+  .about-token{position:fixed;left:20rem;height:auto;width:500px;height:300px;top: 6.5rem;padding-right:3rem;}
   .token-big{width:80vw;right:0px;position:fixed;bottom:0px;}
   .cta{width:300px;bottom:3rem;left:calc(50% - 150px);position:fixed;display:flex;flex-flow:row;justify-content:center;}
   .learnmore{transition:all 0.2s ease;width:180px;height:auto;border-radius:2rem;padding:0.5rem 1rem;border:1px solid #ed1c24;color:#ed1c24;text-align:center;font-weight:bolder;
@@ -63,8 +63,8 @@ export default {
 
   .line-right-a{bottom:50%!important;}
   .line-right-b{top:70%!important;}
-  .line-top-a{right:95%!important;}
-  .line-top-b{left:45%!important;}
+  .line-top-a{right:90%!important;}
+  .line-top-b{left:40%!important;}
   
   
   

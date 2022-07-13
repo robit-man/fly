@@ -28,7 +28,32 @@ $border: 1px solid $bg-color;
 }
 
 
+.dropdown{ h4{font-size:1.5rem;margin-bottom:1rem;} p{margin-bottom:0.5rem;line-height:1.2;}} 
+.more {
+  line-height: 30px;
+  height: 30px;
+  width:120px;
+  padding: 0rem 1rem;
+  margin-top: 0rem;
+  margin-bottom: 0.5rem;
+  display: flex;
+  overflow: hidden;
+  flex-flow: column;
+  justify-content: flex-start;
+  color: white;
+  cursor: pointer;  
+  transition-delay: 1s;
 
+}
+
+.more:hover {
+  margin-top: 0rem;
+  margin-bottom: -90rem;
+  height: 300px;
+  width:300px;
+  transition-delay: 0s;
+
+}
 
 .line-box{
 
@@ -96,7 +121,7 @@ bottom:0px;top:50%;
     z-index:100;  
     
 }
-.menuitem{margin-right:8px;font-family: 'TraReg', sans-serif;color:$primary;}
+.menuitem{margin-right:8px;margin-left:8px;font-family: 'TraReg', sans-serif;color:$primary;}
 .menulist{display:flex;flex-flow:row;}
 .menu-top-line{width:2rem;height:4px;border-radius:2rem;background-color:#ed1c24;margin-left:auto;}
 .menu-bottom-line{width:4rem;height:4px;border-radius:2rem;background-color:#ed1c24;margin-top:8px;}
@@ -168,7 +193,7 @@ position: fixed;
 height: 100vh;
 width: 100vw;
 }
-
+*{transition: all 0.2s ease;}
 @media screen and (max-width:900px) {
   .menutop{
     right:6rem;

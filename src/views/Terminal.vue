@@ -2,7 +2,7 @@
   <div class="full-wrapper">
          <a href="/#/"> <div class="icontop" style=""><img src="~/@/assets/logo.png" style="" alt=""></div></a>
 
-        <div class="iconmenu" style="">
+        <div class="iconmenu" style="" >
           <div class="menu-top-line" style=""></div>
           <div class="menu-bottom-line" style=""></div>
         </div>
@@ -41,6 +41,7 @@ import { mapState, mapActions } from 'vuex';
 export default {
   data() {
     return {
+      menu: false,
       form: {
         quantity: ''
       },
