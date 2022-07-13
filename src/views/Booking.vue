@@ -32,7 +32,26 @@ Use the power of your voice to select all your flight options including</p>
 
           <div class="navleft"></div>
 
-          <div class="features"></div>
+          <div class="features" style="">
+            <div class="featurebox">
+              <img class="featurebox-img"  src="~/@/assets/dine.png" height="32px" alt="">
+              <p>
+            Fine dining & drinks</p>
+            </div>
+            <div class="featurebox">
+              <img class="featurebox-img"  src="~/@/assets/luggage.png" height="32px" alt="">
+              <p>Special luggage handling</p>
+            </div>
+            <div class="featurebox">
+              <img class="featurebox-img" src="~/@/assets/arrangements.png" height="32px" alt="">
+              <p>Cabin & sleeping arrangements</p>
+            </div>
+            <div class="featurebox">
+              <img class="featurebox-img"  src="~/@/assets/pets.png"  height="32px" alt="">
+              <p>Traveling with your pets</p>
+            </div>
+
+          </div>
 
           <div class="navright"></div>
 
@@ -87,8 +106,9 @@ export default {
   
   .plane-booking{width:80%;left:10%;position:absolute;bottom:5%;height:auto;animation:zoom 1s ease-out;}
 
-
-
+.featurebox{text-align:center;font-size:1rem;display:flex;flex-flow:column; justify-content:flex-start; max-width:128px;}
+.featurebox-img{height:64px!important;width:64px!important;margin:1rem auto ;}
+.features{display:flex;flex-flow:row;position:absolute;width:100%;max-width:600px;display:flex;flex-flow:row;justify-content:space-between;top:calc(8rem + 150px);left:calc(50vw - 300px);}
   @media screen and (max-height:800px){
   
   }
