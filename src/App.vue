@@ -24,6 +24,18 @@ width: 200px;" v-on:click="menu = !menu"></div>
             </div>
           </div>
 
+          <RouterLink to="/token">
+              <div class="menuitem">Token</div>
+          </RouterLink>
+          <RouterLink to="/mobile">
+              <div class="menuitem">App</div>
+          </RouterLink>
+          <RouterLink to="/flights">
+              <div class="menuitem">Flights</div>
+          </RouterLink>
+          <RouterLink to="/booking">
+              <div class="menuitem">Booking</div>
+          </RouterLink>
           <a class="menuitem" href="">Features</a>
           <a class="menuitem" href="">Contact Us</a>
         </div>
